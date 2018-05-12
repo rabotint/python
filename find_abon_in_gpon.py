@@ -122,7 +122,7 @@ for new_ip in ["10.10.11.32","10.10.11.33","10.10.11.35"]:
 else:
 	sys.exit("abon don't found on gpon")
 host = socket.gethostbyaddr(ip)[0]
-print host.replace(".l2.skif.com.ua","")
+print host.replace(".l2.server.ip","")
 # get slot / frame / port /ont id
 port_id = []
 for i in range(2,6):
